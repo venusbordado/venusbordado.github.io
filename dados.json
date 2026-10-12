@@ -1,0 +1,58 @@
+{
+  "produtos": [
+    {
+      "nome": "Régua de alinhamento para camiseta (kit 8 peças)",
+      "foto": "img/regua-alinhamento-camiseta.webp",
+      "link": "https://meli.la/1XbqzNd",
+      "categoria": "Marcação",
+      "data": "2026-10-12",
+      "anuncio": "Régua de Alinhamento para Camiseta Mecolour 8 Peças PVC Branco",
+      "conferido": "2026-10-12: link abre esse anúncio; foto = foto principal do anúncio (Carol autorizou usar foto de anúncio)"
+    },
+    {
+      "nome": "Lápis giz de alfaiataria para marcar tecido (3 un.)",
+      "foto": "img/lapis-giz-alfaiataria.webp",
+      "link": "https://meli.la/27VAkaT",
+      "categoria": "Marcação",
+      "data": "2026-10-12",
+      "anuncio": "3 Lápis Giz Alfaiataria Para Marcar E Risca Tecidos",
+      "conferido": "2026-10-12: link abre esse anúncio; foto = foto principal do anúncio. Obs.: no vídeo ela usa um lápis branco de madeira, que parece outro produto."
+    },
+    {
+      "nome": "Linha para bobina de máquina de bordado Setta (15.000 jardas, branca)",
+      "foto": "img/linha-bobina-setta-branco.webp",
+      "link": "https://meli.la/1gswSUu",
+      "categoria": "Linhas",
+      "data": "2026-10-12",
+      "anuncio": "Linha Para Bobina De Maquina De Bordado - Setta 15000 Jardas Branco",
+      "conferido": "2026-10-12: link abre esse anúncio; foto = foto principal do anúncio"
+    },
+    {
+      "nome": "Kit 10 linhas de bordado Setta Lumina (1000 m, cores sortidas)",
+      "foto": "img/kit-linhas-setta-lumina.webp",
+      "link": "https://meli.la/1mbVydi",
+      "categoria": "Linhas",
+      "data": "2026-10-12",
+      "anuncio": "Kit 10 Linhas De Bordado Setta Lumina 1000m Cores Sortidas Multicolor",
+      "conferido": "2026-10-12: link abre esse anúncio; foto = foto principal do anúncio"
+    },
+    {
+      "nome": "Entretela rasgável Fiorella BDO 80 (100 m, branca)",
+      "foto": "img/entretela-fiorella-rasgavel.webp",
+      "link": "https://meli.la/2GrUcW4",
+      "categoria": "Entretela",
+      "data": "2026-10-12",
+      "anuncio": "Entretela Fiorella Bdo 80 Rasgável Rasgo Fácil 100m Bordado Branco",
+      "conferido": "2026-10-12: link abre esse anúncio; foto = foto principal do anúncio"
+    },
+    {
+      "nome": "Entretela que dissolve na água Hidrotela Grepir (1 m, transparente)",
+      "foto": "img/entretela-hidrossoluvel-grepir.webp",
+      "link": "https://meli.la/2K4jqWi",
+      "categoria": "Entretela",
+      "data": "2026-10-12",
+      "anuncio": "Entretela Dissolve Na Água P Bordado Hidrotela Grepir 1m Transparente",
+      "conferido": "2026-10-12: link abre esse anúncio; foto = foto principal do anúncio"
+    }
+  ]
+}

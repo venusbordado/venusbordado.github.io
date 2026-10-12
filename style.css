@@ -1,0 +1,81 @@
+:root {
+  --fundo: #E9E1D5;
+  --cartao: #F4EFE7;
+  --texto: #201B17;
+  --grafite: #262220;
+  --taupe: #B8A992;
+  --suave: #74705F;
+  --handle: #968F85;
+  --filete: #C6C2B7;
+  --raio: 16px;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--fundo);
+  color: var(--texto);
+  font-family: "Montserrat", system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.pagina { max-width: 960px; margin: 0 auto; padding: 32px 16px 24px; }
+
+/* topo */
+.topo { text-align: center; max-width: 480px; margin: 0 auto 36px; }
+.logo { width: 88px; height: 88px; display: block; margin: 0 auto 14px; }
+h1, h2 { font-family: "Playfair Display", Georgia, serif; font-weight: 600; margin: 0; }
+h1 { font-size: 30px; letter-spacing: 0.01em; }
+.handle { margin: 2px 0 10px; color: var(--handle); font-size: 14px; letter-spacing: 0.04em; }
+.bio { margin: 0 auto 22px; color: var(--suave); max-width: 34ch; }
+.redes { display: grid; gap: 10px; }
+.sociais { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; margin-top: 10px; }
+.botao-mini { min-height: 44px; padding: 0 6px; font-size: 13px; border-width: 1px; }
+.botao {
+  display: flex; align-items: center; justify-content: center;
+  min-height: 48px; padding: 0 20px;
+  border: 1.5px solid var(--grafite); border-radius: 999px;
+  color: var(--grafite); text-decoration: none;
+  font-weight: 600; font-size: 15px; letter-spacing: 0.02em;
+  background: transparent;
+  transition: background .15s, color .15s;
+}
+.botao:hover, .botao:focus-visible { background: var(--grafite); color: var(--cartao); }
+.botao-cheio { background: var(--grafite); color: var(--cartao); }
+.botao-cheio:hover, .botao-cheio:focus-visible { background: #000; }
+a:focus-visible, button:focus-visible { outline: 3px solid var(--taupe); outline-offset: 3px; }
+
+/* vitrine */
+.vitrine h2 { font-size: 24px; text-align: center; margin-bottom: 16px; }
+.filtros { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin-bottom: 20px; }
+.filtro {
+  min-height: 44px; padding: 0 16px; border-radius: 999px;
+  border: 1px solid var(--filete); background: var(--cartao); color: var(--texto);
+  font: 500 14px "Montserrat", sans-serif; cursor: pointer;
+}
+.filtro[aria-pressed="true"] { background: var(--grafite); border-color: var(--grafite); color: var(--cartao); }
+.cards {
+  list-style: none; margin: 0 auto; padding: 0; max-width: 720px;
+  display: grid; gap: 14px 8px; grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+@media (min-width: 640px) { .cards { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 18px 12px; } }
+/* quadradinho estilo grade do Instagram: a foto inteira e o link */
+.tile { display: flex; flex-direction: column; gap: 6px; color: var(--texto); text-decoration: none; }
+.tile img {
+  width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: cover; display: block;
+  border-radius: 10px; background: #fff; box-shadow: 0 0 0 1px var(--filete);
+  transition: transform .15s;
+}
+.tile:hover img, .tile:focus-visible img { transform: scale(1.03); }
+.tile .nome {
+  font-size: 12px; line-height: 1.3; font-weight: 500;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+.tile .ver { font-size: 10.5px; color: var(--handle); letter-spacing: 0.02em; white-space: nowrap; }
+.vazio { text-align: center; color: var(--suave); padding: 24px 0; }
+
+/* rodape */
+.rodape { margin-top: 44px; padding-top: 18px; border-top: 1px solid var(--filete); text-align: center; color: var(--suave); font-size: 12.5px; }
+.rodape p { margin: 0 auto 6px; max-width: 52ch; }
+.assinatura { color: var(--handle); }
+
